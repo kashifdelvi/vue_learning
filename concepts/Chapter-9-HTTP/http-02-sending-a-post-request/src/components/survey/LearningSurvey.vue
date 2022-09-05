@@ -60,8 +60,8 @@ export default {
       //   rating: this.chosenRating,
       // });
 
-      fetch('https://test-b4b07-default-rtdb.firebaseio.com/surveys.json', {
-        method: 'POST',
+      fetch('https://fir-56eed-default-rtdb.firebaseio.com/food.json', {
+        method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
         },

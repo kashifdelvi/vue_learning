@@ -51,7 +51,7 @@ a {
 a:hover,
 a:active,
 a.active {
-  color: #f1a80a;
+  color: #0af166;
   border-color: #f1a80a;
   background-color: #1a037e;
 }

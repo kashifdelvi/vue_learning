@@ -32,9 +32,9 @@ const handler = {
     target.message = value;
   }
 };
-
 const proxy = new Proxy(data, handler);
 
 proxy.message = 'Hello!!!!';
 
 console.log(proxy.longMessage);
+
